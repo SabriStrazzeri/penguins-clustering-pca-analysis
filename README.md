@@ -11,9 +11,9 @@ Used a customized dataset from [Kaggle: Penguin Data Visualization with Seaborn]
 
 ## 🧪 Approach
 1. Data preprocessing and exploratory data analysis:
-  - Removed categorical variables for clustering and PCA.
-  - Standardized the numerical features to ensure equal contribution to distance-based methods.
-  - Performed descriptive statistics and correlation analysis  to understand relationships between variables.
+   - Removed categorical variables for clustering and PCA.
+   - Standardized the numerical features to ensure equal contribution to distance-based methods.
+   - Performed descriptive statistics and correlation analysis  to understand relationships between variables.
 
 2. Clustering analysis:
    - Hierarchical Clustering: used Euclidean distance and Ward's method. Evaluated dendrogram and made decisions based on silhouette analysis.
