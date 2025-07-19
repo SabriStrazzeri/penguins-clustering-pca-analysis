@@ -15,12 +15,12 @@ Used a customized dataset from [Kaggle: Penguin Data Visualization with Seaborn]
    - Standardized the numerical features to ensure equal contribution to distance-based methods.
    - Performed descriptive statistics and correlation analysis  to understand relationships between variables.
 
-2. Clustering analysis (clustering.ipynb):
+2. Clustering analysis (`notebooks/clustering.ipynb`):
    - Hierarchical Clustering: used Euclidean distance and Ward's method. Evaluated dendrogram and made decisions based on silhouette analysis.
    - K-Means Clustering: applied K-means with a k selected based on the elbow and silhouette methods. Visualized the distribution of clusters in a PCA space.
    - Compared cluster centroids to identify distinguishing features. 
 
-3. PCA (pca.ipynb):
+3. PCA (`notebooks/pca.ipynb`):
    - Applied PCA to reduce dimensionality and visualize the data in 2D.
    - Interpreted the components. 
 
@@ -37,6 +37,5 @@ Used a customized dataset from [Kaggle: Penguin Data Visualization with Seaborn]
 - Visual tools, such as dendrograms, silhouette plots, and PCA scatter plots are essential for interpreting and communicating findings. 
 
 ## 📁 Repo Contents
-- `notebooks/` – EDA and clustering notebook
-- `data/` – Kaggle dataset and cleaned version
-- `images/` – Cluster plots, PCA visuals
+- `notebooks/` – PCA and Clustering notebook.
+- `data/` – Includes cleaned version of the dataset.
